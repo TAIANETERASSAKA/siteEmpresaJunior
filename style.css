@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+} 
+
+body{
+    background-color: black
+}
+
+h1{
+    color: blueviolet;
+}
+h2{
+   color: white;
+
+}
+
+
+
+p{
+    color: white;
+}
+
+a{
+    color: white;
+}
+.apresentacao{
+    padding: 6% 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.apresentacao__conteudo__titulo{
+    font-family: "Share Tech", sans-serif;
+    font-size: 40px;
+}
+
+.destaque_texto{
+    color: blueviolet;
+}
+
+.apresentacao__conteudo{
+    width: 615px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    font-family: "Share Tech", sans-serif;
+}
+
+.apresentacao__botoes{
+    font-weight: 500;
+    font-size: 20px;
+
+}
+
+.bloco__botoes{
+    display: flex;
+    flex-direction: column;
+    align-items: center ;
+    justify-content: space-between;
+    gap: 28px;
+    
+
+}
+
+.botoes{
+     /*background-color: blueviolet;*/
+     text-align: center;
+     text-decoration: none;
+     border-radius: 16px;
+     width: 250px; /*largura do botao*/
+     font-size: 24px;
+     font-family: "Share Tech", sans-serif;
+     border: 2px solid blueviolet; /*estilizar borda: espessura borda, estilo borda, cor borda*/
+
+}
+
+/*o hover estiliza a classe que foi selecionada, ao passar o mouse por cima*/
+.botoes:hover{
+    background-color: blanchedalmond;
+    color: blueviolet;
+}
+
+.rodape{
+    padding: 5px;
+    background-color: blueviolet;
+    color: white;
+    text-align: center;
+    font-family: "Share Tech", sans-serif;
+}
+
+.cabecalho__menu__link{
+    color: white;
+    text-align: center;
+    font-family: "Share Tech", sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.menu{
+    display: flex;
+    gap: 180px;
+
+}
+
+.cabecalho{
+    padding: 0.5% 0% 0.5% 5%;
+    background-color: blueviolet;
+}
+
+.lista{
+    color:white;
+}
+
+
+
+.linhaimagem1{
+    display: flex;
+
+    gap: 240px;
+}
+
+.linhaimagem2{
+    display: flex;
+
+    gap: 200px
+}
+
+.bloco__imagem{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    padding: 10% 8%;
+    gap: 80px;
+
+}
+
+.pres{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: "Share Tech", sans-serif;
+}
+
+.vice{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: "Share Tech", sans-serif;
+}
+
+.dirrh{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: "Share Tech", sans-serif;
+}
+
+
+
+.dirproj{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: "Share Tech", sans-serif;
+}
+
+.dirmark{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: "Share Tech", sans-serif;
+}
+
+.apresentacao__equipe{
+    display: flex;
+    flex-direction: column;
+    padding: 3% 8%;
+}
+
+
+.apresentacao__equipe__titulo{
+    font-family: "Share Tech", sans-serif;
+    font-size: 40px;
+}
